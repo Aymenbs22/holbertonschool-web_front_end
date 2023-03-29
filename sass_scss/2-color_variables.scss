@@ -3,7 +3,7 @@ $color: #3D3D3D;
 $color2: #6D6D6D;
 body{
   color: #{$color};
-  color: #{$color2};
+  background-color: #{$color2};
 }
 p{
   color: #{$color};
