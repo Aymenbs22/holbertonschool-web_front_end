@@ -1,9 +1,9 @@
 /* Text color #3D3D3D to elements inside body tags
 Text color #FF0000 to any elements of class .red inside body tags */
 $color: #3D3D3D;
+$color2: #FF0000;
 body{
-  margin: #{$color};
-}
-body .red{
   color: #{$color};
+}body .red{
+  color: #{$color2};
 }
