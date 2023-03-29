@@ -1,13 +1,13 @@
 /* Margin left and right at 10px to body tags Margin left and right at 15px to div tags */
-@mixin Margin($Margin-left, $Margin-right) {
-  Margin-left: $Margin-left;
-  Margin-right: $Margin-right;
+@mixin margin($margin-left, $margin-right) {
+  margin-left: $margin-left;
+  margin-right: $margin-right;
 }
 
 body {
-  @include Margin(10px, 10px);
+  @include margin(10px, 10px);
 }
 
 div {
-  @include Margin(15px, 15px);
+  @include margin(15px, 15px);
 }
