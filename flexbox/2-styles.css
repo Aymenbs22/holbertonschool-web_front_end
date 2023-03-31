@@ -384,7 +384,7 @@
   /* Card (all styles)
       ============================= */
   
-  .card-category {
+  .card-category .row {
     color: var(--color-primary);
   }
   
