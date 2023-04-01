@@ -381,7 +381,7 @@
   
 /* Section ABOUT US ============================= */
 
-.col-1-2{
+.col-*{
   align-self: center;
 }
 
