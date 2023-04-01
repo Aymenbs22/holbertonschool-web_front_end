@@ -346,7 +346,7 @@
   /* Section HERO
       ============================= */
   
-  .section-hero {
+  .section-hero .section-body {
     position: relative;
     margin-top: -8.5rem;
     padding: 10rem 4rem;
