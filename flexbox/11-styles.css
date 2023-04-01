@@ -535,12 +535,9 @@
 /* Section HERO (article)
     ============================= */
 
-.hero-article{
+.hero-article .before{
   background-size: 150rem 100rem;
   background-position: 50% 0;
-}
-
-.before{
   content: empty;
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
