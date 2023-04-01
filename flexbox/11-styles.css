@@ -535,12 +535,9 @@
 /* Section HERO (article)
     ============================= */
 
-.hero-article .section-inner{
+.hero-article{
   background-size: 150rem 100rem;
   background-position: 50% 0;
-  text-align: center;
-  align-items: center;
-  min-height: 40vh;
 }
 
 .hero-article::before{
@@ -552,4 +549,10 @@
   left: 0;
   bottom: 0;
   z-index: 0;
+}
+
+.section-inner{
+  text-align: center;
+  align-items: center;
+  min-height: 40vh;
 }
