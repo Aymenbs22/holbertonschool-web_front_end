@@ -346,7 +346,21 @@
   /* Section HERO
       ============================= */
   
-  .section-hero .section-body .section-category {
+  .section-hero {
+    position: relative;
+    margin-top: -8.5rem;
+    padding: 10rem 4rem;
+    color: white;
+    text-transform: uppercase;
+  }
+  .section-body{
+    position: relative;
+    margin-top: -8.5rem;
+    padding: 10rem 4rem;
+    color: white;
+    text-transform: uppercase;
+  }
+  .section-category{
     position: relative;
     margin-top: -8.5rem;
     padding: 10rem 4rem;
