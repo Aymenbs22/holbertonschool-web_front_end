@@ -624,3 +624,6 @@ margin-bottom: 3rem;
   content: ", ";
 }
 
+.tag-list li:last-child::after {
+  content: "";
+}
