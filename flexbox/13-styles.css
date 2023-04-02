@@ -623,3 +623,7 @@ margin-bottom: 3rem;
 .tag-list li::after{
   content: ", ";
 }
+
+.tag-list li:last-child:after{
+  content: "";
+}
