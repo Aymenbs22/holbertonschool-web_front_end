@@ -166,7 +166,7 @@
     background: var(--color-primary);
   }
 
-  .button:hover:hover {
+  .button-primary:hover {
     color: var(--color-primary);
     background: var(--color-white);
   }
