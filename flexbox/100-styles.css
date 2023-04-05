@@ -633,7 +633,7 @@ margin-bottom: 3rem;
   height: auto;
 }
 
-.post-content:first-child {
+.post-content p:first-child {
   font-size: var(--font-size-x-large);
 }
 
