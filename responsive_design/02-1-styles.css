@@ -171,11 +171,16 @@
   
   .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
-    height: auto;
-    width: 100%;
+    height: 1px;
+    width: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
+  }
+
+  main img {
+    width: 50%;
+    height: auto;
   }
   
   /*** 2. LAYOUT ***/
