@@ -63,7 +63,7 @@
         const position = select.val();
         addNewMember(firstName, lastName, position);
       });
-      $('body').prepend($('<div>').append(input1, input2, select, submit));
+      $('body').prepend(input1, input2, select, submit);
     }
     window.onload = function() {
     createFamilyTree();
