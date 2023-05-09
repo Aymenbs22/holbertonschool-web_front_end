@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8" />
+  <title>Task 0</title>
+  <style>
+    td.remove {
+      background-color: orange;
+      cursor: pointer;
+    }
+  </style>
+  <script type="application/javascript" src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+  <script type="application/javascript">
+    function createFamilyTree() {
+      $('body').append(
+        $('<table>').append(
+          $('<thead>').append(
+            $('<tr>').append(
+              $('<th>').text('Firstname'),
+              $('<th>').text('Lastname')
+            )
+          ),
+          $('<tbody>')
+        )
+      );
+    }
+    function addNewMember(firstName, lastName) {
+        const removename = $('<td>').text('(x)').click(function() {
+  $(this).parent().remove();
+}).css('background-color', 'orange');
+        $('tbody').append(
+        $('<tr>').append(
+          $('<td>').text(firstName),
+          $('<td>').text(lastName),
+            removename
+        )
+      );
+    }
+    window.onload = function() {
+    createFamilyTree();
+    addNewMember('Guillaume', 'Salva');
+    addNewMember('Arielle', 'Snizt');
+    addNewMember('Fanette', 'Snizt');
+    addNewMember('Gerard', 'Snizt');
+    addNewMember('Victor', 'Salva');
+    }
+  </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
